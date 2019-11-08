@@ -6,6 +6,12 @@
     :target: https://www.python.org/downloads/release/python-360/
     :alt: Python Version
 
+.. |build| image:: https://travis-ci.com/intuit/metriks.svg?branch=master
+    :target: https://travis-ci.com/intuit/metriks
+
+.. |coverage| image:: https://coveralls.io/repos/github/intuit/metriks/badge.svg?branch=master
+    :target: https://coveralls.io/github/intuit/metriks?branch=master
+
 -----
 
 metriks is a Python package of commonly used metrics for evaluating information retrieval models.
