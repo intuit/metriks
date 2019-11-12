@@ -4,6 +4,7 @@ python:
 install:
   - pip install pytest-cov
   - pip install python-coveralls
+  - pip install coverage
   - pip install .
 script: pytest --cov=metriks tests/
 after_success:
