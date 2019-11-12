@@ -3,7 +3,7 @@ python:
   - "3.6"
 install:
   - pip install pytest-cov
-  - pip install coveralls
+  - pip install python-coveralls
   - pip install .
 script: pytest --cov=metriks tests/
 after_success:
