@@ -40,18 +40,21 @@ Installation
 ------------
 Install using `pip <https://pypi.org/project/pip/>`_
 ::
+
     pip install metriks
 
 Alternatively, specific distributions can be downloaded from the
 github `release <https://github.com/intuit/metriks/releases>`_
 page. Once downloaded, install the ``.tar.gz`` file directly:
 ::
-    pip install metriks-*.tar.gz
+
+    pip install metriks-\*.tar.gz
 
 Development
 -----------
 1. (*Optional*) If you have `virtualenv` and `virtualenvwrapper` create a new virtual environment:
 ::
+
     mkvirtualenv metriks
 
 This isolates your specific project dependencies to avoid conflicts
@@ -59,6 +62,7 @@ with other projects.
 
 2. Clone and install the repository:
 ::
+
     git clone git@github.com:intuit/metriks.git
     cd metriks
     pip install -e .
@@ -71,6 +75,7 @@ need to `pip install` it again)
 
 3. Run the tests using `tox`:
 ::
+
     pip install tox
     tox
 
