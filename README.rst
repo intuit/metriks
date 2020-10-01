@@ -29,7 +29,7 @@ Available Metrics
 +------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `metriks.ndcg(y_true, y_prob, k)`                          | A score for measuring the quality of a set of ranked results.                 |
 +------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `label_mean_reciprocal_rank(y_true, y_prob)`               | Determines the average rank each label was placed across samples. Only labels |
+| `metriks.label_mean_reciprocal_rank(y_true, y_prob)`       | Determines the average rank each label was placed across samples. Only labels |
 |                                                            | that are relevant in the true data set are considered in the calculation.     |
 +------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `metriks.confusion_matrix_at_k(y_true, y_prob, k)`         | Generates binary predictions from probabilities by evaluating the top k       |
